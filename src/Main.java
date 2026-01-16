@@ -40,5 +40,21 @@ public class Main {
     int everySudPaper = pepper/students;
 System.out.println("На каждого ученика рассчитано "+everySudPaper+" листов бумаги.");
 
+
+//Задача 4
+
+       byte min_Efficiency = 16/2;
+       int Efficiency_20_min = min_Efficiency*20;
+       int Efficiency_1_Day = min_Efficiency*60*24;
+       int Efficiency_3_Days = Efficiency_1_Day*3;
+       int Efficiency_1_Month = Efficiency_1_Day*30;
+
+       System.out.println("За 20 минут машина произвела "+ Efficiency_20_min+ " штук бутылок");
+       System.out.println("За сутки машина произвела "+ Efficiency_1_Day + " штук бутылок");
+       System.out.println("За 3 дня машина произвела "+ Efficiency_3_Days+ " штук бутылок");
+       System.out.println("За месяц машина произвела "+ Efficiency_1_Month+ " штук бутылок");
+
+
+
     }
     }
