@@ -21,19 +21,19 @@ public class Main {
 
  //Задача 2
 
-   float f2 = 27.12f;
-   long l2 = 987678965549L;
-   float f3 = 2.786F;
-   int i2 = 569;
-   int i3 = -159;
-   short s2 = 27897;
-   byte b2 = 67;
+  // float f2 = 27.12f;
+  // long l2 = 987678965549L;
+  // float f3 = 2.786F;
+  // int i2 = 569;
+  // int i3 = -159;
+  // short s2 = 27897;
+  // byte b2 = 67;
 
 
 //Задача 3
 
-    byte ludPav = 23;
-    byte annSerg = 27;
+   byte ludPav = 23;
+   byte annSerg = 27;
     byte ekatAndr = 30;
     int pepper = 480;
     int students = ludPav+annSerg+ekatAndr;
@@ -65,6 +65,17 @@ System.out.println("На каждого ученика рассчитано "+ev
         int allBrownColor = classRoom*brownColor;
          System.out.println("В школе, где "+classRoom+" классов, нужно "+allWhiteColor+ " банок белой краски и "+ allBrownColor+
                  " банок коричневой краски");
+ // Задача 6
+
+       int bananasWeight = 80*5;
+       int milkWeight = 2*105;
+       int iceWeight = 200;
+       int eggWeight = 4*70;
+
+       int breakfastWeight_in_gr = bananasWeight+milkWeight+iceWeight+eggWeight;
+       double breakfastWeight_in_kg = breakfastWeight_in_gr/ 1000d;
+
+       System.out.println("Вес спортзавтрака составляет " + breakfastWeight_in_gr+ " грамм или "+breakfastWeight_in_kg+ " кг.");
 
 
     }
