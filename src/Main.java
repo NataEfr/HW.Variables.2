@@ -93,7 +93,21 @@ System.out.println("На каждого ученика рассчитано "+ev
            averageDays+ " дней, чтобы добстигуть результата.");
 
 
+//Задача 8
+        int nowWagesMasha = 67760;
+        int nowWagesDen = 83690;
+        int nowWagesKris = 76230;
 
+        float futureWagMasha = (nowWagesMasha/100f*10f)+nowWagesMasha;
+        float futureWagDen = (nowWagesDen/100f*10f)+nowWagesDen;
+        float futureWagKris = (nowWagesKris/100f*10f)+nowWagesKris;
 
+       int DifYearWagMasha = ((int)futureWagMasha*12)-(nowWagesMasha*12);
+       int DifYearWagDen = ((int)futureWagDen*12)-(nowWagesDen*12);
+       int DifYearWagKris = ((int)futureWagKris*12)-(nowWagesKris*12);
+
+        System.out.println("Маша теперь получает "+ (int)futureWagMasha+ " рублей. Годовой доход вырос на " + DifYearWagMasha+ " рублей.");
+        System.out.println("Денис теперь получает "+ (int)futureWagDen+ " рублей. Годовой доход вырос на " + DifYearWagDen+ " рублей.");
+        System.out.println("Кристина теперь получает "+ (int)futureWagKris+ " рублей. Годовой доход вырос на " + DifYearWagKris+ " рублей.");
     }
     }
