@@ -77,6 +77,23 @@ System.out.println("На каждого ученика рассчитано "+ev
 
        System.out.println("Вес спортзавтрака составляет " + breakfastWeight_in_gr+ " грамм или "+breakfastWeight_in_kg+ " кг.");
 
+//Задача 7
+
+   byte diffWeight = 7;
+   float option_250 = 0.25f;
+   float option_500 = 0.5f;
+
+   float dayOption_250 = diffWeight/option_250;
+   float dayOption_500 = diffWeight/option_500;
+
+   float averageDays = (dayOption_250+dayOption_500)/2;
+
+   System.out.println("Если спортсмен будет худеть на 250 гр. в день, то результата он достигент через "+dayOption_250+ " дней. " +
+           "Если спортсмен будет худеть на 500 гр. в день, то результата он достигент через " + dayOption_500+ " дней. В среднем спортсмену нужно " +
+           averageDays+ " дней, чтобы добстигуть результата.");
+
+
+
 
     }
     }
