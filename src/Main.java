@@ -54,6 +54,17 @@ System.out.println("На каждого ученика рассчитано "+ev
        System.out.println("За 3 дня машина произвела "+ Efficiency_3_Days+ " штук бутылок");
        System.out.println("За месяц машина произвела "+ Efficiency_1_Month+ " штук бутылок");
 
+//Задача 5
+
+        byte whiteColor = 2;
+        byte brownColor = 4;
+        int colorPot = 120;
+
+        int classRoom = colorPot/(whiteColor+brownColor);
+        int allWhiteColor = classRoom*whiteColor;
+        int allBrownColor = classRoom*brownColor;
+         System.out.println("В школе, где "+classRoom+" классов, нужно "+allWhiteColor+ " банок белой краски и "+ allBrownColor+
+                 " банок коричневой краски");
 
 
     }
